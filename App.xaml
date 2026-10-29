@@ -4,11 +4,16 @@
              xmlns:local="clr-namespace:dquinonezEXAMEN"
              x:Class="dquinonezEXAMEN.App">
     <Application.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
-                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="Purple" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="CornerRadius" Value="10" />
+            <Setter Property="FontAttributes" Value="Bold" />
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="FontAttributes" Value="Bold" />
+        </Style>
     </Application.Resources>
 </Application>
